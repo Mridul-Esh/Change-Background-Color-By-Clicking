@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: popoins;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: black;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h2{
+    margin-bottom: 20px;
+    font-size: 52px;
+    text-shadow: 2px 2px 0px rgb(192, 199, 207), 
+               2px -2px 0px rgb(130, 141, 153), 
+			   -2px 2px 0px rgb(223, 232, 243), 
+			   -2px -2px 0px rgb(221, 234, 250), 
+			   2px 0px 0px rgba(64, 116, 181, 1), 
+			   0px 2px 0px rgba(64, 116, 181, 1), 
+			   -2px 0px 0px rgba(64, 116, 181, 1), 
+			   0px -2px 0px rgba(64, 116, 181, 1);
+}
+
+.inputTag {
+    margin-bottom: 20px;
+}
+
+
+input {
+    padding: 12px;
+    border-radius: 5px;
+    outline: none;
+    background-color: black;
+    color: #fff;
+    font-size: 18px;
+    border: 2px solid #fff;
+}
+
+#changeBTN {
+    padding: 12px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+}
